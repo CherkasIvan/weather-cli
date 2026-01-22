@@ -10,8 +10,7 @@ const printWarning = (warn) => {
 }
 
 const printSuccess = (message) => {
-  if(!!printError && !!printWorn)
-  console.log(chalk.bgGrey( 'SUCCESS!') + ' ' + message)
+  console.log(chalk.bgGreen( 'SUCCESS!') + ' ' + message)
 }
 
 const printHelp = () => {
@@ -20,7 +19,7 @@ const printHelp = () => {
   '\n' + 'Без параметров - вывод погоды' + 
   '\n' + '-s [CYTY] для установки города' +
   '\n' + '-h [HELP] для вывода помощи'  +
-  '\n' + '-h [API_KEY] для сохранения токена' )
+  '\n' + '-t [API_KEY] для сохранения токена' )
   )
 }
 
