@@ -3,6 +3,18 @@
   "version": "0.0.0",
   "private": "false",
   "main": "weather.js",
+  "displayName": "Ivan Cherkas",
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^6.0.2",
+    "axios": "^1.13.2",
+    "chalk": "^5.6.2",
+    "dedent-js": "^1.0.1",
+    "prettier": "^3.8.1"
+  },
+  "peerDependenciesMeta": {},
+  "devDependencies": {
+    "gulp": "^5.0.1"
+  },
   "bin": {
     "weather": "weather.js"
   },
@@ -32,13 +44,5 @@
   },
   "license": "ISC",
   "author": "Ivan Cherkas",
-  "type": "commonjs",
-  "dependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^6.0.2",
-    "axios": "^1.13.2"
-  },
-  "peerDependenciesMeta": {},
-  "devDependencies": {
-    "gulp": "^5.0.1"
-  }
+  "type": "module"
 }
