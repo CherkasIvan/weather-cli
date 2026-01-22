@@ -1,15 +1,20 @@
 {
   "name": "weather-cli-diagnostic",
   "version": "0.0.0",
-  "private":"false",
-  "main": "index.js",
-  "bin": "./index.js",
-  "os": ["win32, linux"],
-  "man": ["./README.md"],
-  "engines": {"node": ">=16"},
+  "private": "false",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "man": [
+    "./README.md"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
   "description": "Cli for getting weather",
-    "scripts": {
-    "start": "node index.js",
+  "scripts": {
+    "start": "node weather.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -27,5 +32,13 @@
   },
   "license": "ISC",
   "author": "Ivan Cherkas",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^6.0.2",
+    "axios": "^1.13.2"
+  },
+  "peerDependenciesMeta": {},
+  "devDependencies": {
+    "gulp": "^5.0.1"
+  }
 }
