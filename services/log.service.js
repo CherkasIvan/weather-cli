@@ -1,26 +1,27 @@
-import chalk from "chalk"
-import dedent from "dedent-js"
+// services/log.service.js
+import chalk from 'chalk';
+import dedent from 'dedent-js';
 
 const printError = (error) => {
-  console.log(chalk.bgRed( 'ERROR' ) + ' ' + error)
-}
+  console.log(chalk.bgRed('ERROR') + ' ' + error);
+};
 
 const printWarning = (warn) => {
-  console.log(chalk.bgYellowBright( 'WARNING' ) + ' ' + warn)
-}
+  console.log(chalk.bgYellowBright('WARNING') + ' ' + warn);
+};
 
 const printSuccess = (message) => {
-  console.log(chalk.bgGreen( 'SUCCESS!') + ' ' + message)
-}
+  console.log(chalk.bgGreen('SUCCESS!') + ' ' + message);
+};
 
 const printHelp = () => {
   console.log(
-    dedent(chalk.bgCyan( 'HELP' ) + 
-  '\n' + 'Без параметров - вывод погоды' + 
-  '\n' + '-s [CYTY] для установки города' +
-  '\n' + '-h [HELP] для вывода помощи'  +
-  '\n' + '-t [API_KEY] для сохранения токена' )
-  )
-}
+    dedent(chalk.bgCyan('HELP') +
+      '\nБез параметров - вывод погоды' +
+      '\n-s [CITY] для установки города' +
+      '\n-h для вывода помощи' +
+      '\n-t [API_KEY] для сохранения токена')
+  );
+};
 
-export { printError, printHelp, printSuccess, printWarning }
+export { printError, printHelp, printSuccess, printWarning };

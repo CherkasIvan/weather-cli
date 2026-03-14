@@ -1,6 +1,6 @@
 {
-  "name": "weather-cli-diagnostic",
-  "version": "0.0.0",
+  "name": "weather-cli",
+  "version": "1.0.0",
   "private": "false",
   "main": "weather.js",
   "displayName": "Ivan Cherkas",
@@ -32,7 +32,8 @@
   },
   "keywords": [
     "cli",
-    "weather"
+    "weather",
+    "jv13"
   ],
   "homepage": "https://github.com/CherkasIvan/weather-cli#readme",
   "bugs": {
