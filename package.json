@@ -1,50 +1,50 @@
-{
-  "name": "weather-cli-diagnostic",
-  "version": "0.0.0",
-  "private": "false",
-  "main": "weather.js",
-  "displayName": "Ivan Cherkas",
-  "dependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^6.0.2",
-    "axios": "^1.13.2",
-    "chalk": "^5.6.2",
-    "dedent-js": "^1.0.1",
-    "dotenv": "^17.3.1",
-    "prettier": "^3.8.1"
-  },
-  "peerDependenciesMeta": {},
-  "devDependencies": {
-    "gulp": "^5.0.1"
-  },
-  "bin": {
-    "weather": "weather.js"
-  },
-  "man": [
-    "./README.md"
-  ],
-  "engines": {
-    "node": ">=16"
-  },
-  "description": "Cli for getting weather",
-  "scripts": {
-    "start": "node weather.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prettier": "npx prettier"
-  },
-  "keywords": [
-    "cli",
-    "weather"
-  ],
-  "homepage": "https://github.com/CherkasIvan/weather-cli#readme",
-  "bugs": {
-    "url": "https://github.com/CherkasIvan/weather-cli/issues",
-    "email": "cherkas.ivan13@gmail.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CherkasIvan/weather-cli.git"
-  },
-  "license": "ISC",
-  "author": "Ivan Cherkas",
-  "type": "module"
-}
+    {
+        "name": "weather-cli-jv13",
+        "version": "0.0.0",
+        "private": false,
+        "main": "weather.js",
+        "displayName": "Ivan Cherkas",
+        "dependencies": {
+            "@trivago/prettier-plugin-sort-imports": "^6.0.2",
+            "axios": "^1.13.2",
+            "chalk": "^5.6.2",
+            "dedent-js": "^1.0.1",
+            "dotenv": "^17.3.1",
+            "prettier": "^3.8.1"
+        },
+        "peerDependenciesMeta": {},
+        "devDependencies": {
+            "gulp": "^5.0.1"
+        },
+        "bin": {
+            "weather": "weather.js"
+        },
+        "man": [
+            "./README.md"
+        ],
+        "engines": {
+            "node": ">=16"
+        },
+        "description": "Cli for getting weather",
+        "scripts": {
+            "start": "node weather.js",
+            "test": "echo \"Error: no test specified\" && exit 1",
+            "prettier": "npx prettier --write ."
+        },
+        "keywords": [
+            "cli",
+            "weather"
+        ],
+        "homepage": "https://github.com/CherkasIvan/weather-cli#readme",
+        "bugs": {
+            "url": "https://github.com/CherkasIvan/weather-cli/issues",
+            "email": "cherkas.ivan13@gmail.com"
+        },
+        "repository": {
+            "type": "git",
+            "url": "git+https://github.com/CherkasIvan/weather-cli.git"
+        },
+        "license": "ISC",
+        "author": "Ivan Cherkas",
+        "type": "module"
+    }
